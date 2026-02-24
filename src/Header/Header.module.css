@@ -1,0 +1,22 @@
+.header {
+  background-color: slateblue;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.header h1 {
+  cursor: pointer;
+}
+
+.header i {
+  font-size: 25px;
+}
+
+.header i:hover {
+  cursor: pointer;
+  color: black;
+}

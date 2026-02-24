@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navegacao {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: azure;
+  padding-top: 30px;
+}
+
+button {
+  width: 80%;
+  height: 40px;
+  background-color: rgb(43, 70, 224);
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(127, 12, 2);
+}
+
+@media (min-width: 320px) {
+  button {
+    width: 300px;
+  }
+}
