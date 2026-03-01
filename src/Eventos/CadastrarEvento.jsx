@@ -66,6 +66,7 @@ export default function CadastrarEvento({
             <span>Nome do Evento:</span>
             <p />
             <input
+              id = "cadastroName"
               value={evento.name}
               onChange={(evt) =>
                 setEvento({ ...evento, name: evt.target.value })
@@ -79,6 +80,7 @@ export default function CadastrarEvento({
             <span>Local do Evento:</span>
             <p />
             <input
+              id = "cadastroLocal"
               value={evento.updateTimestamp.timezone}
               onChange={(evt) =>
                 setEvento({
@@ -98,6 +100,7 @@ export default function CadastrarEvento({
             <span>Data do Evento:</span>
             <p />
             <input
+              id = "cadastroData"
               value={evento.updateTimestamp.date}
               onChange={(evt) =>
                 setEvento({
@@ -117,6 +120,7 @@ export default function CadastrarEvento({
             <span>Descrição do Evento:</span>
             <p />
             <textarea
+              id = "cadastroDescricao"
               value={evento.shortDescription}
               onChange={(evt) =>
                 setEvento({ ...evento, shortDescription: evt.target.value })
@@ -126,7 +130,7 @@ export default function CadastrarEvento({
             ></textarea>
           </label>
 
-          <button type="submit"> Salvar Evento</button>
+          <button id ='botaoTesteCadastro' type="submit"> Salvar Evento</button>
         </form>
 
         <button
