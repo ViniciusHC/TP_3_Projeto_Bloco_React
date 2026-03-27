@@ -1,36 +1,48 @@
+
 * {
   box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   font-family: "Montserrat", sans-serif;
 }
 
 .navegacao {
-  height: 90vh;
+  min-height: 90vh; 
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
   background-color: azure;
-  padding-top: 30px;
+  padding: 30px 20px; 
 }
 
-button {
-  width: 80%;
-  height: 40px;
+
+.button {
+  width: 100%;       
+  max-width: 400px;  
+  height: 45px;      
   background-color: rgb(43, 70, 224);
   color: white;
   border-radius: 5px;
   border: none;
+  transition: background-color 0.3s ease; 
+  font-weight: 600;
 }
 
-button:hover {
+.button:hover {
   cursor: pointer;
   background-color: rgb(127, 12, 2);
 }
 
-@media (min-width: 320px) {
-  button {
-    width: 300px;
+/* Tablets e Desktops (Telas médias e grandes) */
+@media (min-width: 768px) {
+  .navegacao {
+    flex-direction: row; 
+    justify-content: center;
+    padding-top: 50px;
+  }
+
+  .button {
+    width: 250px; 
   }
 }

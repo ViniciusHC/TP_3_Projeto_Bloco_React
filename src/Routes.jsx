@@ -1,8 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { useState, useEffect } from "react";
 import App from "./App";
-import CadastrarEvento from "./Eventos/CadastrarEvento";
-import ListaEventos from "./Eventos/ListaEventos";
+import CadastrarEvento from "./Screens/CadastrarEvento";
+import ListaEventos from "./Screens/ListaEventos";
 import axios from "axios";
 
 export default function Routes() {

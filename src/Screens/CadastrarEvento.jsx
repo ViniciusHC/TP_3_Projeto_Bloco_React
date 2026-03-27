@@ -1,5 +1,5 @@
 import styles from "./CadastrarEvento.module.css";
-import Header from "../Header/Hearder";
+import Header from "../Components/Header/Header";
 import { useNavigate } from "react-router-dom";
 
 export default function CadastrarEvento({

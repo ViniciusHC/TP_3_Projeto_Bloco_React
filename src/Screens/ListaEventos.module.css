@@ -1,0 +1,62 @@
+.listaEventos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  width: 100%;
+  min-height: 100vh;
+  gap: 20px;
+  padding: 20px 10px;
+}
+
+.containerTabela {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.table th, 
+.table td {
+  border: 1px solid #ccc;
+  padding: 12px 8px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.table th {
+  background-color: rgb(141, 116, 82);
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+
+
+@media (min-width: 768px) {
+  .listaEventos {
+    padding: 40px 20px;
+  }
+
+  .containerTabela {
+    width: 90%;
+    max-width: 1000px;
+  }
+
+  .table th, 
+  .table td {
+    font-size: 16px;
+    padding: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .containerTabela {
+    width: 80%;
+  }
+}

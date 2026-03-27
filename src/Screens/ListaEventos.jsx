@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Header from "../Header/Hearder";
+import Header from "../Components/Header/Header";
 import styles from "./ListaEventos.module.css";
 import { useNavigate } from "react-router-dom";
 

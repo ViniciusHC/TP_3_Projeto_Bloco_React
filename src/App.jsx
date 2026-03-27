@@ -1,5 +1,5 @@
 import styles from "./App.module.css";
-import Header from "./Header/Hearder";
+import Header from "./Components/Header/Header";
 import { useNavigate } from "react-router";
 
 export default function App() {
