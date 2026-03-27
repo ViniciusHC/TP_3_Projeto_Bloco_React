@@ -34,7 +34,7 @@
   background-color: rgb(127, 12, 2);
 }
 
-/* Tablets e Desktops (Telas médias e grandes) */
+
 @media (min-width: 768px) {
   .navegacao {
     flex-direction: row; 
